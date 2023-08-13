@@ -19,4 +19,6 @@ public class Mover : MonoBehaviour
        
         transform.Translate(xValue, 0, zValue);
     }
+
+    // 10 - Empty commit - Introduction to methods
 }
