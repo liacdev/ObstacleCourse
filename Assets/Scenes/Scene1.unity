@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 463792332}
   - component: {fileID: 463792331}
   - component: {fileID: 463792330}
+  - component: {fileID: 463792334}
   m_Layer: 0
   m_Name: SouthWall
   m_TagString: Untagged
@@ -228,6 +229,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463792334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463792329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bd5eba23f369323bd38a9dc8a5ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &510564153
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,6 +693,7 @@ GameObject:
   - component: {fileID: 1235858833}
   - component: {fileID: 1235858832}
   - component: {fileID: 1235858831}
+  - component: {fileID: 1235858835}
   m_Layer: 0
   m_Name: WestWall
   m_TagString: Untagged
@@ -773,6 +787,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1235858835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235858830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bd5eba23f369323bd38a9dc8a5ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1277318568
 GameObject:
   m_ObjectHideFlags: 3
@@ -901,6 +927,7 @@ GameObject:
   - component: {fileID: 1664673730}
   - component: {fileID: 1664673729}
   - component: {fileID: 1664673728}
+  - component: {fileID: 1664673732}
   m_Layer: 0
   m_Name: NorthWall
   m_TagString: Untagged
@@ -994,6 +1021,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1664673732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664673727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bd5eba23f369323bd38a9dc8a5ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1724069305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,6 +1151,7 @@ GameObject:
   - component: {fileID: 1865096589}
   - component: {fileID: 1865096588}
   - component: {fileID: 1865096587}
+  - component: {fileID: 1865096591}
   m_Layer: 0
   m_Name: EastWall
   m_TagString: Untagged
@@ -1205,6 +1245,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1865096591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865096586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9bd5eba23f369323bd38a9dc8a5ac01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
