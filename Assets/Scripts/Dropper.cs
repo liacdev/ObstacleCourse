@@ -26,7 +26,6 @@ public class Dropper : MonoBehaviour
         {
             renderer.enabled = true;
             rigidbody.useGravity = true;
-
         }
     
     }
