@@ -22,6 +22,7 @@ public class Roller : MonoBehaviour
     {
        // This method should move the roller object based on position.
         
+    /*
         // If roller is in NW position
         if (transform.position.x <= -5.5f && transform.position.z >= 5.5f)
         {
@@ -29,7 +30,6 @@ public class Roller : MonoBehaviour
             transform.Translate (0, 0, -moveSpeed * Time.deltaTime);
         }
     
-    /*
         // If roller is in NE
         if (transform.position.x >= 5.5f && transform.position.z >= 5.5f)
         {

@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hit
+  - Tower
+  - Spinner
+  - Wall
+  - Roller
+  - Dropper
   layers:
   - Default
   - TransparentFX

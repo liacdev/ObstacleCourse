@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4490864642432799541}
   - component: {fileID: 8738354776418806936}
   - component: {fileID: 4121278751842999576}
-  - component: {fileID: 2888507884836716584}
   - component: {fileID: 3627440536694228477}
   - component: {fileID: 7014816744478471274}
+  - component: {fileID: 2888507884836716584}
   m_Layer: 0
   m_Name: FlappyBall
   m_TagString: Player
@@ -100,18 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
---- !u!114 &2888507884836716584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2286473617794108044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 870064d2dc371dbd2957e45dea70b494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &3627440536694228477
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -160,3 +148,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2888507884836716584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286473617794108044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870064d2dc371dbd2957e45dea70b494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
