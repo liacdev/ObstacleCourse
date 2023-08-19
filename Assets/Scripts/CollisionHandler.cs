@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class CollisionHandler : MonoBehaviour
@@ -22,6 +23,7 @@ public class CollisionHandler : MonoBehaviour
                 break;
 
             case "Spinner":
+                ReloadLevel();
                 Debug.Log ("Spinner");
                 break;
 
@@ -44,6 +46,14 @@ public class CollisionHandler : MonoBehaviour
         }
 
     }
+
+    void ReloadLevel()
+        {
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex; 
+            SceneManager.LoadScene(currentSceneIndex);
+        }
+
+
 
 
 
